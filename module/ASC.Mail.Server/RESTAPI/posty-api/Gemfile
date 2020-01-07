@@ -7,7 +7,7 @@ group :default do
   gem 'activerecord', "~> 3.2.18", :require => "active_record"
   gem 'json', '~> 1.8.1'
   gem 'grape-swagger'
-  gem 'rack-cors', :require => 'rack/cors'
+  gem 'rack-cors', '>= 1.0.0'
   gem 'mysql2', "~> 0.3.16"
   gem "schema_plus", "~> 1.5.1"
 end
