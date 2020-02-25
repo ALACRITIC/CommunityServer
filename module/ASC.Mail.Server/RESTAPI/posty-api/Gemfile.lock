@@ -60,7 +60,7 @@ GEM
     racksh (1.0.0)
       rack (>= 1.0)
       rack-test (>= 0.5)
-    rake (10.3.2)
+    rake (12.3.3)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
@@ -101,7 +101,10 @@ DEPENDENCIES
   rack-cors
   rack-test
   racksh
-  rake (~> 10.3.2)
+  rake (~> 12.3.3)
   rspec
   schema_plus (~> 1.5.1)
   shotgun
+
+BUNDLED WITH
+   1.17.3
