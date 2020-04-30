@@ -44,7 +44,7 @@ GEM
     hashie (3.0.0)
     i18n (0.6.9)
     ice_nine (0.11.0)
-    json (1.8.1)
+    json (2.3.0)
     kramdown (1.4.0)
     multi_json (1.10.1)
     multi_xml (0.5.5)
@@ -95,7 +95,7 @@ DEPENDENCIES
   activerecord (~> 3.2.18)
   grape (~> 0.7.0)
   grape-swagger
-  json (~> 1.8.1)
+  json (~> 2.3.0)
   mysql2 (~> 0.3.16)
   rack (~> 1.5.2)
   rack-cors
@@ -105,3 +105,6 @@ DEPENDENCIES
   rspec
   schema_plus (~> 1.5.1)
   shotgun
+
+BUNDLED WITH
+   1.17.3
